@@ -155,9 +155,6 @@ export default class App extends React.Component {
     saveToIpfs = async (reader) => {
         let ipfsId = ''
         let fromAddr = ''
-        /* let tokenIdArray = []
-        let URIArray = []
-        let JsonInfoArray */
         const bufferFile = Buffer.from(reader.result)
         this.setState({ loading: true })
 
